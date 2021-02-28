@@ -22,6 +22,7 @@ function draw() {
    car.y-wall.y<car.height/2+wall.height/2&&
     wall.y-car.y<car.height/2+wall.height/2
     ){
+      car.velocityX=0;
    if(deformation<120){
     car.shapeColor="green";
    } 
@@ -33,4 +34,4 @@ function draw() {
    }
   }
   drawSprites();
-}
+ }
